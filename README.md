@@ -1,6 +1,8 @@
 # Procress-aware-transaction-ordering
 
-The dataset used in the paper is found in the folder paper_dataset under the format: setup_maliciousNodes_bufferingLength_epochs_attackType
+The dataset used in the paper is found in the folder paper_dataset under the format: [setup][maliciousNodes][bufferingLength][epochs][attackType].
+
+Example: oc_1_2_150_r, ordering contract with one malicious node and 2 buffering blocks with a suppression attack.
 
 ## Dependencies 
 
@@ -56,10 +58,6 @@ node interact_plain.js
 ```sh
 node interact_ordering.js
 ```
-
-### Paper Dataset 
-
-
 
 ### References
 
