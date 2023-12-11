@@ -36,7 +36,7 @@ Nodes need to be started before deploying contracts
 ./deploy-contract.sh
 ```
 
-## Interaction
+## Setups
 ```sh
 cd src
 ```
@@ -46,12 +46,12 @@ cd src
 node event_generate.js
 ```
 
-### Plain Interaction
+### Plain Setup
 ```sh
 node interact_plain.js
 ```
 
-### OC Interaction
+### OC Setup
 
 ```sh
 node interact_ordering.js
