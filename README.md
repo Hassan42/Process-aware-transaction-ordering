@@ -19,8 +19,8 @@ A new network will be initialized with the QBFT consensus protocol.
 
 Each node is correspondent to a buyer.
 
-quorum: honest node
-quorumal: displacement node
+quorum: honest node |
+quorumal: displacement node |
 quorumal_del: suppression node
 
 In a new terminal:
@@ -51,7 +51,7 @@ node event_generate.js
 node interact_plain.js
 ```
 
-### PaC Interaction
+### OC Interaction
 
 ```sh
 node interact_ordering.js
